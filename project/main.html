@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" type="text/css" href = "main.css">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+    <nav>
+        <h3>Account Balance</h3>
+        <h3 id = "accountBalance"><py-script src = "main.py"></py-script></h3>
+    </nav>
+
+    <header>
+        <h2>Crypto Bot</h2>
+        <h4>Automated Crypto Trading</h4>
+    </header>
+
+    <nav class= "profitNav">
+        <h2>Total Profit :</h2>
+        <h2 id = 'profit' aria-placeholder="$0.00">$0.00</h2>
+        <h2>Select Currency To Trade :</h2>
+    </nav>
+    
+    <div class = "imagesDiv">
+        <figure>
+            <img id = "image" src = 'ltc.jpeg'>
+            <figcaption><button>Litecoin</button></figcaption> 
+        </figure>
+        <figure>
+            <img id = "image" src = "btc.jpeg">
+            <figcaption><button>Bitcoin</button></figcaption>
+        </figure>
+        <figure>
+            <img id = "image" src = 'solana.jpeg'>
+            <figcaption><button>Solana</button></figcaption> 
+        </figure>
+    </div>
+    <label for="amount-select">Select Amount :</label>
+
+<select name="amounts" id="">
+    <option value="100">$100</option>
+    <option value="500">$500</option>
+    <option value="1000">$1000</option>
+</select>
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>

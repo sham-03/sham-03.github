@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header {
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+}
+.imagesDiv {
+    display: flex;
+    justify-content: space-around;
+}
